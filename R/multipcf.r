@@ -28,8 +28,8 @@ multipcf <- function(data,pos.unit="bp",arms=NULL,Y=NULL,gamma=40,normalize=TRUE
   }
   
   #Check assembly input:
-  if(!assembly %in% c("hg19","hg18","hg17","hg16","mm7","mm8","mm9")){
-    stop("assembly must be one of hg19, hg18, hg17 or hg16",call.=FALSE)
+  if(!assembly %in% c("hg38", "hg19","hg18","hg17","hg16","mm7","mm8","mm9")){
+    stop("assembly must be one of hg38, hg19, hg18, hg17 or hg16",call.=FALSE)
   }
 
   #Is data a file:

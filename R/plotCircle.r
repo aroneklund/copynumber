@@ -18,7 +18,7 @@
 ### arcs: a data frame with 5 columns. The first four columns gives chromosome numbers and local positions for start point and end point of arc, respectively, while the last column should contain a vector of numbers 1,2,... indication that the arcs belong to different classes. Each class of arcs will then be plotted in a different color
 ### arc.colors: colors used to plot the lines representing the different classes in arcs. Must be longer or equal to the number of classes found in arcs.
 ### d: a scalar > 0 representing the distance from the genome circle to the starting points of the arcs. Set d=0 to make arcs start at the genome circle
-### assembly: which assembly to use, must be one of hg19, hg18, hg17 or hg16
+### assembly: which assembly to use, must be one of hg38, hg19, hg18, hg17 or hg16
  
 ##Required by: none
 
