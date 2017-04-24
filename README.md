@@ -1,9 +1,11 @@
 The "copynumber" R package with support for hg38
 ================================================
 
-This R package is clone of the 
+This R package is a fork of the 
 ["copynumber" package](https://bioconductor.org/packages/release/bioc/html/copynumber.html)
-with minimal modifications to support human genome build hg38.
+with minimal modifications to support human genome build hg38. The default behavior is
+unchanged, and it should be safe to use this as a drop-in replacement for the original
+package.
 
 Note that the default assembly is still hg19 -- so if you want to use hg38 you must
 specify it explicitly, e.g. 
@@ -18,7 +20,7 @@ Installation
 
 You can install this package directly from GitHub like this:
 
-	library(devtools)
+	library("devtools")
 	install_github("aroneklund/copynumber")
 
 
